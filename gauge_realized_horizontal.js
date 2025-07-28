@@ -1,6 +1,6 @@
 // Configuration object to store gauge settings
 var realizedGaugeConfig = {
-    baseUrlTemplate: 'http://192.168.70.10:5001/api/vol_realized/{CRYPTO}/{HOURS}',
+    baseUrlTemplate: 'https://risk-widget.onrender.com/api/vol_realized/api/vol_realized/{CRYPTO}/{HOURS}',
     selectedCrypto: 'ETH', // Default to ETH
     selectedHours: 24, // Default to 24 hours (1 day)
     selectedMetric: 'volatility', // Default to volatility

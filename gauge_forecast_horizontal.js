@@ -1,6 +1,6 @@
 // Configuration object to store gauge settings
 var gaugeConfig = {
-    baseUrlTemplate: 'http://192.168.70.10:5001/api/vol_forecast/{CRYPTO}/',
+    baseUrlTemplate: 'https://risk-widget.onrender.com/api/vol_forecast/{CRYPTO}/',
     selectedCrypto: 'ETH', // Default to ETH
     selectedPeriod: 30, // Default to 30 days
     minValue: 0,
